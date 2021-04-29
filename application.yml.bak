@@ -8,13 +8,13 @@ server:
 spring:
   profile: dev
   application:
-    name: spring-cloud-proudcer-DEPA
+    name: spring-cloud-proudcer-DEPA-dev	
 
 ---  
 server:
   port: 8001
 spring:
-  profile: dev
+  profile: test
   application:
-    name: spring-cloud-proudcer-DEPA
+    name: spring-cloud-proudcer-DEPA-test
 

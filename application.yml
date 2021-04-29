@@ -1,12 +1,12 @@
 spring:
-  profile:
+  profiles:
     active: dev
 
 ---
 server:
   port: 8001
 spring:
-  profile: dev
+  profiles: dev
   application:
     name: spring-cloud-proudcer-DEPA-dev	
 
@@ -14,7 +14,7 @@ spring:
 server:
   port: 8001
 spring:
-  profile: test
+  profiles: test
   application:
     name: spring-cloud-proudcer-DEPA-test
 
